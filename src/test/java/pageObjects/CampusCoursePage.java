@@ -1,9 +1,7 @@
 package pageObjects;
-
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 
 import testBase.BaseClass;
 
@@ -57,7 +55,6 @@ public class CampusCoursePage extends BaseClass {
 	public void scrollToForm() {
 		jsScrollIntoView(elmtForm);
 	}
-
 	// Methods for filling the form
 	public void setFirstName(String firstName) {
 		txtFirstName.sendKeys(firstName);
