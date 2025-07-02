@@ -1,0 +1,22 @@
+2025-07-02 17:41:19 INFO  TC001:16 - ***** Strarting TC *****
+2025-07-02 17:41:19 ERROR TC001:42 - Test failed: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+2025-07-02 17:41:19 INFO  TC001:47 - ***** Finished TC *****
+2025-07-02 17:46:13 INFO  TC001:16 - ***** Strarting TC *****
+2025-07-02 17:46:13 ERROR TC001:41 - Test failed: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "js" is null
+2025-07-02 17:46:13 INFO  TC001:46 - ***** Finished TC *****
+2025-07-02 17:54:42 INFO  TC001:17 - ***** Strarting TC *****
+2025-07-02 17:54:42 ERROR TC001:42 - Test failed: javascript error: Cannot read properties of null (reading 'scrollIntoView')
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5668551f18aebb6e20864e4ac5be18b7, executeScript {args=[null], script=arguments[0].scrollIntoView()}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2408432\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65466}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65466/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5668551f18aebb6e20864e4ac5be18b7
+2025-07-02 17:54:42 INFO  TC001:47 - ***** Finished TC *****
+2025-07-02 18:00:56 INFO  TC001:17 - ***** Strarting TC *****
+2025-07-02 18:00:56 ERROR TC001:42 - Test failed: Cannot invoke "org.openqa.selenium.WebElement.sendKeys(java.lang.CharSequence[])" because "this.txtFirstName" is null
+2025-07-02 18:00:56 INFO  TC001:47 - ***** Finished TC *****
+2025-07-02 18:04:44 INFO  TC001:17 - ***** Strarting TC *****
+2025-07-02 18:04:44 ERROR TC001:42 - Test failed: Cannot invoke "org.openqa.selenium.JavascriptExecutor.executeScript(String, Object[])" because "this.js" is null
+2025-07-02 18:04:44 INFO  TC001:47 - ***** Finished TC *****
