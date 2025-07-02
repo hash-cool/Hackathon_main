@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 
-public class CampusCoursePage extends BaseClass {
+public class CampusCoursePage extends BasePage {
 	
 	
 	//Constructor
