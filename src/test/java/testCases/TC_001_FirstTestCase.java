@@ -3,6 +3,7 @@ package testCases;
 import java.util.List;
 
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.AvailCourses;
@@ -56,11 +57,13 @@ public class TC_001_FirstTestCase extends BaseClass{
 			
 			//Returning back to home page(Coursera)
 			hm.clickHome();
+			Assert.assertTrue(true);
 			
 			
 		}
 		catch(Exception e) {
 			System.out.println(e.getMessage());
+			Assert.fail();
 		}
 	}
 	
