@@ -1,13 +1,11 @@
-package pageObjects;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-public class HomePage extends BasePage  {
-
+ 
+public class HomePageCourse extends BaseClass  {
+   
 	//3locators 2 methods
-	 public HomePage(WebDriver driver) {
+	 public HomePageCourse(WebDriver driver) {
 		 super(driver);
 	 }
 	 @FindBy(xpath="//input[@id=\"search-autocomplete-input\"]")
@@ -15,26 +13,11 @@ public class HomePage extends BasePage  {
 	
 	 @FindBy(xpath="//button[@class=\"nostyle search-button\"][1]")
 	 WebElement searchbutton;
-	  
-	 @FindBy(xpath="//img[@class='rc-CourseraLogo']")
-	 WebElement home;
-	 
-	 @FindBy(xpath="//span(text()=' Universities')")
-	 WebElement universities;
-	 
-	 public void clickHome() {
-		 home.click();
-	 }
-	 public void sendingKeys(String course) {
-		 search.sendKeys(course);
+	 public void sendingKeys() {
+		 search.sendKeys("Web Development");
 	 }
 	 public void click() {
 		 searchbutton.click();
 	 }
-	 public void clickUniversities() {
-		 universities.click();
-	 }
-	 
-	 
-	 
+	
 }
