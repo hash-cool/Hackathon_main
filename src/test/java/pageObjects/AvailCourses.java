@@ -5,10 +5,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-public class secondpage extends firstpage{
+public class AvailCourses extends BasePage{
 	WebDriver driver;
 	
-	public secondpage(WebDriver driver) {
+	public AvailCourses(WebDriver driver) {
 		super(driver);
 	}
 	
