@@ -5,38 +5,38 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-public class secondpage extends firstpage{
-	WebDriver driver;
+public class AvailCourses extends BasePage{
 	
-	public secondpage(WebDriver driver) {
+	public AvailCourses(WebDriver driver) {
 		super(driver);
 	}
 	
-	@FindBy(xpath="//*[@id=\"cds-react-aria-:Rhlbdj2tacqkqikta:\"]")
+	@FindBy(xpath="//*[@id='cds-react-aria-:Rhlbdj2tacqkqikta:']")
 	WebElement english_checkbox;
 	
 	@FindBy(xpath="//span[text()='Beginner']")
 	WebElement beginner_checkbox;
 	
 	//First Product
-	@FindBy(xpath="//*[@id='cds-react-aria-:R58d5iv6laikta:-product-card-title']")
+	@FindBy(xpath="(//div[@class='cds-ProductCard-header'])[1]//a")
 	WebElement first_course;
 	
-	@FindBy(xpath="//div[@id='cds-react-aria-:R5pfd8d5iv6laikta:-meter']/span")
+	@FindBy(xpath="(//div[@class='cds-ProductCard-footer'])[1]//div[@aria-label='Rating']//span")
 	WebElement first_course_rating;
 	
-	@FindBy(xpath="//ul[@class='cds-9 css-5t8l4v cds-10']/li[1]/div//div[@class='cds-ProductCard-footer']/div[@class='cds-CommonCard-metadata']/p")
+	
+	@FindBy(xpath="(//div[@class='cds-ProductCard-footer'])[1]//p")
 	WebElement first_course_duration;
 	
 	//Second Product
 	
-	@FindBy(xpath="//*[@id='cds-react-aria-:R58l5iv6laikta:-product-card-title']")
+	@FindBy(xpath="(//div[@class='cds-ProductCard-header'])[2]//a")
 	WebElement second_course;
 	
-	@FindBy(xpath="//div[@id='cds-react-aria-:R5pfd8l5iv6laikta:-meter']/span")
+	@FindBy(xpath="(//div[@class='cds-ProductCard-footer'])[2]//div[@aria-label='Rating']//span")
 	WebElement second_course_rating;
 	
-	@FindBy(xpath="//ul[@class='cds-9 css-5t8l4v cds-10']/li[2]/div//div[@class='cds-ProductCard-footer']/div[@class='cds-CommonCard-metadata']/p")
+	@FindBy(xpath="(//div[@class='cds-ProductCard-footer'])[2]//p")
 	WebElement second_course_duration;
 	
 	@FindBy(xpath="//span[text() = 'Language Learning']")

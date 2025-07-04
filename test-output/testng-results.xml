@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T10:44:45 IST" name="Suite" finished-at="2025-07-03T10:45:17 IST" duration-ms="31197">
+  <suite started-at="2025-07-03T17:59:59 IST" name="Suite" finished-at="2025-07-03T18:01:27 IST" duration-ms="87942">
     <groups>
     </groups>
-    <test started-at="2025-07-03T10:44:45 IST" name="Test" finished-at="2025-07-03T10:45:17 IST" duration-ms="31197">
+    <test started-at="2025-07-03T17:59:59 IST" name="Test1" finished-at="2025-07-03T18:01:27 IST" duration-ms="87942">
       <class name="testCases.TC_002_SecondTestCase">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_SecondTestCase@49438269]" started-at="2025-07-03T10:44:45 IST" name="setup" finished-at="2025-07-03T10:44:58 IST" duration-ms="12045" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_SecondTestCase@24269709]" started-at="2025-07-03T18:00:42 IST" name="setup" finished-at="2025-07-03T18:00:47 IST" duration-ms="5410" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="fill_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_SecondTestCase@49438269]" started-at="2025-07-03T10:45:00 IST" name="fill_details" data-provider="DP1" finished-at="2025-07-03T10:45:11 IST" duration-ms="11057" status="PASS">
+        <test-method signature="fill_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_SecondTestCase@24269709]" started-at="2025-07-03T18:00:49 IST" name="fill_details" data-provider="DP1" finished-at="2025-07-03T18:01:22 IST" duration-ms="33058" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,11 +84,37 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fill_details -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_SecondTestCase@49438269]" started-at="2025-07-03T10:45:11 IST" name="tearDown" finished-at="2025-07-03T10:45:17 IST" duration-ms="5932" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_SecondTestCase@24269709]" started-at="2025-07-03T18:01:22 IST" name="tearDown" finished-at="2025-07-03T18:01:27 IST" duration-ms="5090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_SecondTestCase -->
-    </test> <!-- Test -->
+      <class name="testCases.TC_001_FirstTestCase">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_FirstTestCase@1c1bbc4e]" started-at="2025-07-03T17:59:59 IST" name="setup" finished-at="2025-07-03T18:00:05 IST" duration-ms="5930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchCourse()[pri:0, instance:testCases.TC_001_FirstTestCase@1c1bbc4e]" started-at="2025-07-03T18:00:05 IST" name="searchCourse" finished-at="2025-07-03T18:00:37 IST" duration-ms="31863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCourse -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_FirstTestCase@1c1bbc4e]" started-at="2025-07-03T18:00:37 IST" name="tearDown" finished-at="2025-07-03T18:00:42 IST" duration-ms="5381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_FirstTestCase -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
