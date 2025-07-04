@@ -19,7 +19,11 @@ public class HomePage extends BasePage  {
 	 @FindBy(xpath="//img[@class='rc-CourseraLogo']")
 	 WebElement home;
 	 
+<<<<<<< HEAD
 	 @FindBy(xpath="//div[@role='navigation']//li[3]/a")
+=======
+	 @FindBy(xpath="//span(text()=' Universities')")
+>>>>>>> 855d3c7be70775aad1043eb92cef72a7faa49193
 	 WebElement universities;
 	 
 	 public void clickHome() {
@@ -37,4 +41,8 @@ public class HomePage extends BasePage  {
 	 
 	 
 	 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 855d3c7be70775aad1043eb92cef72a7faa49193
