@@ -34,11 +34,4 @@ public class HomePage extends BasePage  {
 	 public void clickUniversities() {
 		 universities.click();
 	 }
-	 
-	 
-	 
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 855d3c7be70775aad1043eb92cef72a7faa49193
+
